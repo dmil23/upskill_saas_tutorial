@@ -12,4 +12,5 @@ ActionMailer::Base.smtp_settings = {
   :domain         => 'mighty-caverns-55515.herokuapp.com',
   :authentication => :plain,
 }
+
 ActionMailer::Base.delivery_method = :smtp
